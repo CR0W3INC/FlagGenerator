@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 
-#define flag "Nice Try? Maybe look around other commits"
+#define flag ""
 
 static char *rand_string(char *str, int size) {
     if (size) {
@@ -16,6 +16,7 @@ static char *rand_string(char *str, int size) {
     return str;
 }
 
+//Secret Function
 char* encryption(char* data, char* key, int dataLen, int keyLen) {
 	char* output = (char*)malloc(sizeof(char) * dataLen);
 	for (int i = 0; i < dataLen; ++i) {
@@ -39,7 +40,7 @@ int main() {
     "                                         /@@@@@@@@@@@@@&               \n";
 
     char* text = 
-    "       =[ \033[33m[REDACTED] v3.6.2-release [core:3.3 api:1.0]\033[0m\n"
+    "       =[ \033[33m[REDACTED] v3.6.3-release [core:3.3 api:1.0]\033[0m\n"
     "+ -- --=[ 481 exploits  -  310 generations\n"
     "+ -- --=[ 176 flags - 21 encoders - 8 nops\n"
     "       =[ svn r7957 updated \033[31m298 days ago\033[0m (2023.12.23)\n"
