@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 
-#define flag ""
+#define flag "Nice Try? Maybe look around other commits"
 
 static char *rand_string(char *str, int size) {
     if (size) {
@@ -39,19 +39,18 @@ int main() {
     "                                         /@@@@@@@@@@@@@&               \n";
 
     char* text = 
-    "       =[ \033[33m[REDACTED] v3.6.1-release [core:3.3 api:1.0]\033[0m\n"
+    "       =[ \033[33m[REDACTED] v3.6.2-release [core:3.3 api:1.0]\033[0m\n"
     "+ -- --=[ 481 exploits  -  310 generations\n"
     "+ -- --=[ 176 flags - 21 encoders - 8 nops\n"
     "       =[ svn r7957 updated \033[31m298 days ago\033[0m (2023.12.23)\n"
     "\n"
-    "WARNING: This copy of the CR0W3 Framework was last updated \033[31m298 days ago\033[0m.\n"
+    "WARNING: This copy of the [REDACTED] Framework was last updated \033[31m298 days ago\033[0m.\n"
     "	 We recommend that you update the framework at least every other day.\n"
-    "	 For information on updating your copy of FlagGenerator. please see:\n"
-    "		\033[33mhttps://github.com/CR0W3INC\033[0m \n"
+    "	 For information on updating your copy of [[REDACTED]]. please see:\n"
+    "		\033[33mhttps://github.com/[REDACTED]\033[0m \n"
     "\n"
     "|---------------------------------|\n"
-    "> The Elite generator for flag cheating\n"
-    "Follow us at @Cr0w3Inc\n";
+    "> The Elite generator for flag cheating\n";
     char sec[49] = "> Give us an input and we will give you the flag";
 
     printf("%s\n", ascii_art);
