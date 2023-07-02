@@ -16,7 +16,6 @@ static char *rand_string(char *str, int size) {
     return str;
 }
 
-// SECRET XOR FUNCTION
 char* encryption(char* data, char* key, int dataLen, int keyLen) {
 	char* output = (char*)malloc(sizeof(char) * dataLen);
 	for (int i = 0; i < dataLen; ++i) {
